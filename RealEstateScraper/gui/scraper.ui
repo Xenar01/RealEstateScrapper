@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ScraperWidget</class>
+ <widget class="QWidget" name="ScraperWidget">
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="fieldsGroup">
+     <property name="title">
+      <string>اختيار الحقول</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QCheckBox" name="titleCheck">
+        <property name="text">
+           <string>عنوان</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QCheckBox" name="priceCheck">
+        <property name="text">
+           <string>السعر</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="descCheck">
+        <property name="text">
+           <string>الوصف</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QCheckBox" name="locCheck">
+        <property name="text">
+           <string>الموقع</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QCheckBox" name="imgCheck">
+        <property name="text">
+           <string>الصور</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QCheckBox" name="phoneCheck">
+        <property name="text">
+           <string>الهاتف</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+   <widget class="QLineEdit" name="pathEdit">
+    <property name="placeholderText">
+     <string>مسار الحفظ</string>
+    </property>
+   </widget>
+  </item>
+  <item>
+   <widget class="QLineEdit" name="exportEdit">
+    <property name="placeholderText">
+     <string>مسار التصدير</string>
+    </property>
+   </widget>
+  </item>
+   <item>
+    <widget class="QProgressBar" name="progressBar"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="startButton">
+     <property name="text">
+      <string>ابدأ التجريف</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

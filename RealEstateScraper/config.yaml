@@ -1,0 +1,36 @@
+# إعدادات عامة
+keywords:
+  arabic:
+    - "عقارات سوريا"
+    - "شقق للبيع في سوريا"
+  english:
+    - "Syria real estate"
+    - "Syria apartments"
+bing_api_key: ""
+export:
+  formats:
+    - csv
+    - json
+storage:
+  base_path: ""
+  images: "images"
+scheduling:
+  default_cron: "0 0 * * *"
+ui:
+  language: "ar"
+notifications:
+  toast: true
+authentication:
+  use_master_password: true
+network:
+  proxy: ""
+  vpn_config: ""
+database:
+  url: "sqlite:///realestate.db"
+sites:
+  - name: "ikar"
+    url: "https://ikar.sy"
+  - name: "opensooq"
+    url: "https://sy.opensooq.com"
+  - name: "yabaiti"
+    url: "https://yabaiti.com"
